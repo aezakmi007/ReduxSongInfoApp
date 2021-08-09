@@ -1,5 +1,6 @@
 import React from "react";
 import SongList from "./SongList";
+import SongDetail from "./SongDetail";
 // import {selectSong} from '../actions'; //curly braces because it's named export
 
 function App() {
@@ -8,6 +9,9 @@ function App() {
       <div className="ui row">
         <div className="column eight wide">
           <SongList />
+        </div>
+        <div className="column eight wide">
+          <SongDetail />
         </div>
       </div>
     </div>
